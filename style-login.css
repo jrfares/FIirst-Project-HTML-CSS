@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+body{
+    background-image: url(apple.jpg);
+    margin: 0 ;
+    padding: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color:rgba(116, 109, 109, 0.84);
+    opacity: 50px ;
+    font-size: 15px ;
+}
+i{
+    color: white;
+    padding: 16px;
+}
+.shopping{
+    color: white;
+}
+
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 370px;
+    padding: 50px ;
+    background: rgba(0, 0, 0, 0.474) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.745); 
+    border-radius: 10px ;
+}
+
+.box h1{
+    color: #ffb300;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box .inputBox{
+    position: relative ;
+}
+.box .inputBox input{
+    width: 100%;
+    padding:  10px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid orange;
+    outline: none;
+    background: transparent ;
+}
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    pointer-events: none;
+    transition: 1.4s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #fcfeff;
+    font-size: 12px;
+}
+.box input[type="submit"]{
+    position: absolute;
+    top: 68%;
+    right: 25%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fbf7f7;
+    background:  orange;
+    padding: 10px 90px ;
+    border-radius: 10px ;
+}
+.box a{
+    margin: 10px ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 85%;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.box .a2{
+    margin: -10px ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 85%;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+footer p {
+    margin: 10px ;
+}
+footer a {
+    color: #3c97bf;
+    padding-left: 20px;
+}
+
+
+
+
